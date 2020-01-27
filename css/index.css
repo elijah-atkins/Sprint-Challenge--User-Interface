@@ -190,6 +190,7 @@ header nav a {
 header nav a:hover {
     color: #999;
 }
+/* hide mobile view toggle switch */
 .nav-toggle {
     display: none;
   }
@@ -277,6 +278,31 @@ header nav a:hover {
         width: 100%;
         position: fixed;
     }
+    header .nav {
+        position: absolute;
+        top: 100px;
+        height: 2em;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.75);
+        transform-origin: top;
+        transform: scale(1,0);
+        transition: transform 400ms ease-in-out;
+    }
+    header nav li {
+        margin-left: 1em;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    header .nav li a {
+        font-size: 1rem;
+        position: flex;
+        height: 100%;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+
     .top-content {
         flex-direction: column;
     }
@@ -292,19 +318,21 @@ header nav a:hover {
     .panel-content .panel {
         width: 100%;
     }
+    .panel-content img {
+        width: 100%;
+    }
     .bottom-content {
         flex-direction: column;
     }
     .bottom-content .text-container {
         padding-right: 4%;
     }
-    .nav {
-        transform: scale(1,0);
-    }
+
+/* toggle switch nav control */
     .nav-toggle-label {
         position: absolute;
-        top: 10px;
-        right: 0;
+        top: 50px;
+        right: 25px;
         margin-left: 1em;
         height: 100%;
         display: flex;
