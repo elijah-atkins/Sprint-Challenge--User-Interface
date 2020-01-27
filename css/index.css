@@ -3,87 +3,7 @@
    License: none (public domain)
 */
 
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -91,38 +11,30 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
-ol,
-ul {
+
+ol, ul {
   list-style: none;
 }
-blockquote,
-q {
+
+blockquote, q {
   quotes: none;
 }
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
+
+blockquote:before, blockquote:after, q:before, q:after {
   content: "";
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -132,17 +44,12 @@ table {
   box-sizing: border-box;
 }
 
-html,
-body {
+html, body {
   height: 100%;
   font-family: "Roboto", sans-serif;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
+h1, h2, h3, h4, h5 {
   font-size: 18px;
   margin-bottom: 15px;
   font-family: "Rubik", sans-serif;
@@ -231,7 +138,9 @@ footer nav a {
   color: white;
   text-decoration: none;
 }
+
 /* Sprint CSS  */
+
 header {
   background: white;
   font-family: "Roboto", sans-serif;
@@ -241,12 +150,14 @@ header {
   margin: auto;
   margin-bottom: 3%;
 }
+
 .logo {
   margin: 0;
   float: left;
   margin-top: 5%;
   margin-bottom: 5%;
 }
+
 header nav {
   background: white;
   text-align: left;
@@ -257,11 +168,13 @@ header nav {
   align-items: center;
   justify-content: space-between;
 }
+
 header nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
+
 header nav li {
   float: left;
   padding-left: 3em;
@@ -272,76 +185,79 @@ header nav a {
   text-decoration: none;
   font-size: 1.2rem;
 }
+
 header nav a:hover {
   color: #999;
 }
+
 /* hide mobile view toggle switch -used in mobile view only*/
+
 .nav-toggle {
   display: none;
 }
+
 /*box 1*/
+
 .middle-content .boxes .box {
   background-color: teal;
 }
+
 /*box 2 */
-.middle-content .boxes .box + .box {
+
+.middle-content .boxes .box+.box {
   background-color: gold;
 }
+
 /*box 3 */
-.middle-content .boxes .box + .box + .box {
+
+.middle-content .boxes .box+.box+.box {
   background-color: cadetblue;
 }
+
 /*box 4 */
-.middle-content .boxes .box + .box + .box + .box {
+
+.middle-content .boxes .box+.box+.box+.box {
   background-color: coral;
 }
+
 /*box 5 */
-.middle-content .boxes .box + .box + .box + .box + .box {
+
+.middle-content .boxes .box+.box+.box+.box+.box {
   background-color: crimson;
 }
+
 /*box 6 */
-.middle-content .boxes .box + .box + .box + .box + .box + .box {
+
+.middle-content .boxes .box+.box+.box+.box+.box+.box {
   background-color: forestgreen;
 }
+
 /*box 7 */
-.middle-content .boxes .box + .box + .box + .box + .box + .box + .box {
+
+.middle-content .boxes .box+.box+.box+.box+.box+.box+.box {
   background-color: darkorchid;
 }
+
 /*box 8 */
-.middle-content .boxes .box + .box + .box + .box + .box + .box + .box + .box {
+
+.middle-content .boxes .box+.box+.box+.box+.box+.box+.box+.box {
   background-color: hotpink;
 }
+
 /*box 9 */
-.middle-content
-  .boxes
-  .box
-  + .box
-  + .box
-  + .box
-  + .box
-  + .box
-  + .box
-  + .box
-  + .box {
+
+.middle-content .boxes .box+.box+.box+.box+.box+.box+.box+.box+.box {
   background-color: indigo;
 }
+
 /*box 10 */
-.middle-content
-  .boxes
-  .box
-  + .box
-  + .box
-  + .box
-  + .box
-  + .box
-  + .box
-  + .box
-  + .box
-  + .box {
+
+.middle-content .boxes .box+.box+.box+.box+.box+.box+.box+.box+.box+.box {
   background-color: dodgerblue;
 }
 
 /* about page */
+
 .panel-content {
   display: flex;
   flex-wrap: wrap;
@@ -349,11 +265,13 @@ header nav a:hover {
   border: none;
   margin-bottom: 20px;
 }
+
 .top-content .full-container {
   width: 96%;
   padding: 0 1%;
   padding-bottom: 20px;
 }
+
 .panel-content button {
   background-color: white;
   border-radius: 10px;
@@ -364,17 +282,21 @@ header nav a:hover {
   font-size: 16px;
   border: 2px solid black;
 }
+
 .panel-content img {
   margin-bottom: 3%;
   margin-top: 10%;
 }
+
 .panel-content .panel {
   width: 45%;
   padding: 0 1%;
   padding-bottom: 20px;
   border-bottom: 1px dashed black;
 }
+
 /* Mobile View */
+
 @media (max-width: 800px) {
   .container {
     width: 100%;
@@ -399,7 +321,6 @@ header nav a:hover {
   header nav li {
     display: float;
   }
-
   header .nav li a {
     font-size: 1rem;
     position: flex;
@@ -407,7 +328,6 @@ header nav a:hover {
     justify-content: space-around;
     align-items: center;
   }
-
   .top-content {
     flex-direction: column;
   }
@@ -432,7 +352,6 @@ header nav a:hover {
   .bottom-content .text-container {
     padding-right: 4%;
   }
-
   /* toggle switch nav control */
   .nav-toggle-label {
     position: absolute;
@@ -444,9 +363,7 @@ header nav a:hover {
     align-items: top;
   }
   /*Hamburger Menu Icon */
-  .nav-toggle-label span,
-  .nav-toggle-label span::before,
-  .nav-toggle-label span::after {
+  .nav-toggle-label span, .nav-toggle-label span::before, .nav-toggle-label span::after {
     display: block;
     background: rgb(0, 0, 0);
     height: 4px;
@@ -464,7 +381,7 @@ header nav a:hover {
     position: absolute;
     top: 7px;
   }
-  .nav-toggle:checked ~ .nav {
+  .nav-toggle:checked~.nav {
     display: block;
     transform: scale(1, 1);
   }
