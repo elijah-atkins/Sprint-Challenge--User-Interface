@@ -314,12 +314,13 @@ header nav a:hover {
     top: 80px;
     height: 2em;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: rgba(255, 255, 255, 0.85);
     transform-origin: top;
     transform: scale(1,0);
     transition: transform 400ms ease-in-out;
   }
   header nav li {
+    padding-top: 10px;
     display: float;
   }
   header .nav li a {
