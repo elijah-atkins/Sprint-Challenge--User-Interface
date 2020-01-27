@@ -229,3 +229,17 @@ header nav a:hover {
 .middle-content .boxes .box + .box + .box + .box + .box + .box+ .box + .box + .box + .box{
     background-color: dodgerblue;
 }
+
+/* about page */
+
+.top-content .full-container {
+    width: 96%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+.middle-content .panel {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+    border-bottom: 2px dotted black;
+}
