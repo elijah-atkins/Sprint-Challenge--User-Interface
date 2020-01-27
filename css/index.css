@@ -298,6 +298,7 @@ header nav a:hover {
 /* Mobile View */
 
 @media (max-width: 800px) {
+
   .container {
     width: 100%;
     padding-top: 80px;
@@ -315,7 +316,7 @@ header nav a:hover {
     width: 100%;
     background-color: rgba(255, 255, 255, 0.75);
     transform-origin: top;
-    transform: scale(1, 0);
+    transform: scale(1,0);
     transition: transform 400ms ease-in-out;
   }
   header nav li {
@@ -383,6 +384,6 @@ header nav a:hover {
   }
   .nav-toggle:checked~.nav {
     display: block;
-    transform: scale(1, 1);
+    transform: scale(1,1);
   }
 }
