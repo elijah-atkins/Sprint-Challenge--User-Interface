@@ -231,13 +231,19 @@ header nav a:hover {
 }
 
 /* about page */
-
+.panel-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: none;
+    margin-bottom: 20px;
+}
 .top-content .full-container {
     width: 96%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-.middle-content button {
+.panel-content button {
     background-color: white;
     border-radius: 10px;
     padding: 2%;
@@ -248,13 +254,13 @@ header nav a:hover {
     border: 2px solid black;
     
 }
-.middle-content img {
+.panel-content img {
     margin-bottom: 3%;
     margin-top:10%;
 }
-.middle-content .panel {
-    width: 48%;
+.panel-content .panel {
+    width: 45%;
     padding: 0 1%;
     padding-bottom: 20px;
-    border-bottom: 2px dotted black;
+    border-bottom: 1px dashed black;
 }
