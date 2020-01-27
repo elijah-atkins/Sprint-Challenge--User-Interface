@@ -323,11 +323,7 @@ header nav a:hover {
     display: float;
   }
   header .nav li a {
-    font-size: 1rem;
-    position: flex;
-    height: 100%;
-    justify-content: space-around;
-    align-items: center;
+    font-size: 16px;
   }
   .top-content {
     flex-direction: column;
@@ -359,8 +355,6 @@ header nav a:hover {
     top: 50px;
     right: 25px;
     margin-left: 1em;
-    height: 100%;
-    display: flex;
     align-items: top;
   }
   /*Hamburger Menu Icon */
