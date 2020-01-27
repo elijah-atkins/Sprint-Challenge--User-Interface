@@ -105,3 +105,8 @@ After finishing your required elements, you can push your work further. These go
 * [x] Introduce CSS animations to your site. -- transition
 * [ ] Build a contact page and create a form with several inputs of your choosing
 * [x] Add responsive breakpoints to your code by using media queries
+
+
+## Refrence sources
+https://www.youtube.com/watch?v=8QKOaTYvYUA&t=1583s
+https://devdocs.io/css/adjacent_sibling_combinator
