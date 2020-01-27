@@ -189,3 +189,43 @@ header nav a {
 header nav a:hover {
     color: #999;
 }
+/*box 1*/
+.middle-content .boxes .box{
+    background-color: teal;
+}
+/*box 2 */
+.middle-content .boxes .box + .box{
+    background-color: gold;
+}
+/*box 3 */
+.middle-content .boxes .box + .box + .box{
+    background-color: cadetblue;
+}
+/*box 4 */
+.middle-content .boxes .box + .box + .box + .box{
+    background-color: coral;
+}
+/*box 5 */
+.middle-content .boxes .box + .box + .box + .box + .box{
+    background-color: crimson;
+}
+/*box 6 */
+.middle-content .boxes .box + .box + .box + .box + .box + .box{
+    background-color: forestgreen;
+}
+/*box 7 */
+.middle-content .boxes .box + .box + .box+ .box + .box + .box + .box{
+    background-color: darkorchid;
+}
+/*box 8 */
+.middle-content .boxes .box + .box + .box + .box+ .box + .box + .box + .box{
+    background-color: hotpink;
+}
+/*box 9 */
+.middle-content .boxes .box + .box + .box + .box + .box+ .box + .box + .box + .box{
+    background-color: indigo;
+}
+/*box 10 */
+.middle-content .boxes .box + .box + .box + .box + .box + .box+ .box + .box + .box + .box{
+    background-color: dodgerblue;
+}
