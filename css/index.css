@@ -190,6 +190,9 @@ header nav a {
 header nav a:hover {
     color: #999;
 }
+.nav-toggle {
+    display: none;
+  }
 /*box 1*/
 .middle-content .boxes .box{
     background-color: teal;
@@ -268,9 +271,11 @@ header nav a:hover {
 @media (max-width: 800px){
     .container { 
         width: 100%;
+        padding-top: 250px;
     }
     header {
         width: 100%;
+        position: fixed;
     }
     .top-content {
         flex-direction: column;
@@ -293,4 +298,41 @@ header nav a:hover {
     .bottom-content .text-container {
         padding-right: 4%;
     }
+    .nav {
+        transform: scale(1,0);
+    }
+    .nav-toggle-label {
+        position: absolute;
+        top: 10px;
+        right: 0;
+        margin-left: 1em;
+        height: 100%;
+        display: flex;
+        align-items: top;
+      }
+      .nav-toggle-label span,
+      .nav-toggle-label span::before,
+      .nav-toggle-label span::after{
+        display: block;
+        background: rgb(0, 0, 0);
+        height: 4px;
+        width: 2em;
+        border-radius: 25%;
+        position: relative;
+      }
+      .nav-toggle-label span::before{
+        content: '';
+        position: absolute;
+        bottom: 7px;
+      }
+      .nav-toggle-label span::after{
+        content: '';
+        position: absolute;
+        top: 7px;
+      }
+      .nav-toggle:checked ~ .nav {
+        display: block;
+        transform: scale(1,1);
+      
+      }
 }
